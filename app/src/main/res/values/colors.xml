@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="celadon">#80aa9f</color>
+    <color name="metal">#c8c8c8</color>
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            style="@style/CustomTextStyle"
+            android:text="@string/dialog_msg_sex"/>
+
+        <TextView
+            android:id="@+id/tvSelectSex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            style="@style/CustomTextStyle"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/tvGeneration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            style="@style/CustomTextStyle"
+            android:text="@string/dialog_msg_generation"/>
+
+        <TextView
+            android:id="@+id/tvSelectGeneration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            style="@style/CustomTextStyle"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            style="@style/CustomTextStyle"
+            android:text="@string/dialog_msg_word"/>
+
+        <TextView
+            android:id="@+id/tvSelectWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            style="@style/CustomTextStyle"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/RecordStart"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="@string/bt_record_start"
+        android:textSize="25sp"
+        style="@style/CustomTextStyle"
+        android:drawableRight="@drawable/baseline_library_books_24"/>
+
+
+
+        <Button
+            android:id="@+id/RecordPlayback"
+            android:layout_width="170sp"
+            android:layout_height="60sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/bt_record_playback"
+            android:textSize="20sp"
+            android:enabled="false"
+            style="@style/CustomTextStyle"
+            android:drawableRight="@drawable/baseline_play_circle_24"/>
+
+        <SeekBar
+            android:id="@+id/sbRecordPlayback"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:thumb="@drawable/headphone"
+            android:max="100"/>
+
+
+
+    <Button
+        android:id="@+id/RecordStop"
+        android:layout_width="170sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/bt_record_stop"
+        android:textSize="20sp"
+        android:enabled="false"
+        style="@style/CustomTextStyle"
+        android:drawableRight="@drawable/baseline_cancel_24"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/RecordRetry"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/bt_record_upload"
+            android:textSize="25dp"
+            android:enabled="false"
+            style="@style/CustomTextStyle"
+            android:drawableRight="@drawable/baseline_cloud_upload_24" />
+
+        <TextView
+            android:id="@+id/tvUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            style="@style/CustomTextStyle"
+            android:hint="@string/bt_record_upload"/>
+
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/tv_attention"
+            style="@style/CustomTextStyle2"
+            android:textSize="30sp"
+            android:drawableLeft="@drawable/baseline_warning_24"
+            android:drawableRight="@drawable/baseline_warning_24"
+            android:scrollbars="vertical"/>
+
+        <TextView
+            style="@style/CustomTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:text="@string/tv_attention_warning1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            style="@style/CustomTextStyle"
+            android:scrollbars="vertical"
+            android:text="@string/tv_attention_title"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            style="@style/CustomTextStyle"
+            android:scrollbars="vertical"
+            android:text="@string/tv_attention_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            style="@style/CustomTextStyle"
+            android:scrollbars="vertical"
+            android:text="@string/tv_attention_warning2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            style="@style/CustomTextStyle"
+            android:scrollbars="vertical"
+            android:text="@string/tv_attention_warning3"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_check_my_report"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        style="@style/CustomTextStyle"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="@string/tv_report_id"
+        style="@style/CustomTextStyle3"
+        android:textSize="15sp"/>
+
+    <com.websarva.wings.android.voice2.TypewriterTextView
+        android:id="@+id/tvCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        style="@style/CustomTextStyle2"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/etAddRecordWord"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/bt_make_now"
+        android:textSize="25sp"
+        style="@style/CustomTextStyle"
+        android:drawableRight="@drawable/baseline_play_circle_24"
+        android:onClick="onClickPlay"/>
+
+    <SeekBar
+        android:id="@+id/sbCheck"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:max="100"
+        android:thumb="@drawable/headphone"/>
+
+
+    <ListView
+        android:id="@+id/lvMyReport"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/CustomTextStyle"
+        android:layout_weight="1" />
+
+</LinearLayout>

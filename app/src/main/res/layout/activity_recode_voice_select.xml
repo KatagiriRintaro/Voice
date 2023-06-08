@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvSelectSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        style="@style/CustomTextStyle"
+        android:text="@string/tv_select_sex"/>
+
+
+    <RadioGroup
+        android:id="@+id/rgSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            style="@style/CustomTextStyle"
+            android:text="@string/rb_male"/>
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/rb_female"
+            style="@style/CustomTextStyle"
+            android:layout_marginStart="30dp"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/tvSelectGeneration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/tv_select_generation"
+        style="@style/CustomTextStyle"
+        android:textSize="20sp"/>
+
+    <Spinner
+        android:id="@+id/spSelectGeneration"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:entries="@array/sp_select_generation"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        style="@style/CustomTextStyle"
+        android:text="@string/tv_select_word"/>
+
+    <TextView
+        android:id="@+id/tvSelectedWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        style="@style/CustomTextStyle"
+        android:hint="@string/tv_selected_word"/>
+
+    <ListView
+        android:id="@+id/lvSelectWord"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="1"
+        style="@style/CustomTextStyle"/>
+
+    <Button
+        android:id="@+id/btRecodeVoice"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:text="@string/bt_recode_voice"
+        android:textSize="30sp"
+        style="@style/CustomTextStyle"
+        android:onClick="onButtonClick2SelectDialog"/>
+
+</LinearLayout>

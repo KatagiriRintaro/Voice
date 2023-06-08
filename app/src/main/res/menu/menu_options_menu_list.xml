@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/TotalList"
+        app:showAsAction="never"
+        android:title="@string/option_total"/>
+    <item
+        android:id="@+id/GladList"
+        app:showAsAction="never"
+        android:title="@string/option_glad"/>
+    <item
+        android:id="@+id/AngryList"
+        app:showAsAction="never"
+        android:title="@string/option_angry"/>
+    <item
+        android:id="@+id/SadList"
+        app:showAsAction="never"
+        android:title="@string/option_sad"/>
+    <item
+        android:id="@+id/FunList"
+        app:showAsAction="never"
+        android:title="@string/option_fun"/>
+</menu>

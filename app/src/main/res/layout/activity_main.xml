@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.websarva.wings.android.voice2.TypewriterTextView
+        android:id="@+id/tvWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        style = "@style/CustomTextStyle"/>
+
+    <Button
+        android:id="@+id/btRecord"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="@string/bt_go2recode_voice_select"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        style="@style/CustomTextStyle"
+        android:backgroundTint="@color/metal"
+        android:drawableLeft="@drawable/spy2"
+        android:drawableRight="@drawable/spy2"
+        android:onClick="onButtonClick2RecodeVoiceSelect" />
+
+
+    <Button
+        android:id="@+id/btMake"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        style="@style/CustomTextStyle"
+        android:backgroundTint="@color/metal"
+        android:drawableLeft="@drawable/spy2"
+        android:drawableRight="@drawable/spy2"
+        android:onClick="onButtonClick2MakeVoiceSelect"
+        android:text="@string/bt_go2make_voice_select"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btCheck"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/metal"
+        android:drawableLeft="@drawable/spy2"
+        android:drawableRight="@drawable/spy2"
+        android:onClick="onButtonClick2CheckMyReport"
+        android:text="@string/bt_go2check_my_report"
+        style="@style/CustomTextStyle"
+        android:textSize="20sp"/>
+
+</LinearLayout>

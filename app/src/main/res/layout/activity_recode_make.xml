@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btMakeVoice"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:text="@string/bt_make_start"
+        android:textSize="25sp"
+        style="@style/CustomTextStyle"/>
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/tv_report_id"
+        style="@style/CustomTextStyle3"
+        android:textSize="15sp"/>
+
+    <com.websarva.wings.android.voice2.TypewriterTextView
+        android:id="@+id/tvCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        style="@style/CustomTextStyle2"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btPlayMadeVoice"
+        android:layout_width="150sp"
+        android:layout_height="60sp"
+        android:layout_marginStart="10dp"
+        android:enabled="false"
+        android:text="@string/bt_make_now"
+        android:textSize="25sp"
+        style="@style/CustomTextStyle"
+        android:drawableRight="@drawable/baseline_play_circle_24"/>
+
+    <SeekBar
+        android:id="@+id/sbMakePlay"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:thumb="@drawable/headphone"
+        android:max="100"/>
+
+    <com.websarva.wings.android.voice2.TypewriterTextView
+        android:id="@+id/tvAssess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20sp"
+        style = "@style/CustomTextStyle"/>
+
+
+
+
+    <RadioButton
+        android:id="@+id/rbVoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:text="@string/rb_assess_voice" />
+
+
+    <RadioButton
+        android:id="@+id/rbContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:text="@string/rb_assess_content"/>
+
+    <RadioButton
+        android:id="@+id/rbSympathy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:text="@string/rb_assess_sympathy"/>
+
+    <RadioButton
+        android:id="@+id/rbPower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        android:text="@string/rb_assess_power"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btSave"
+            style="@style/CustomTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:layout_gravity="center"
+            android:enabled="false"
+            android:text="@string/bt_assess"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

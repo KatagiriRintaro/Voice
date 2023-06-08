@@ -1,0 +1,99 @@
+<resources>
+    //MainActivity画面
+    <string name="app_name">Voice Report Project</string>
+    <string name="tv_app_title">君はこの組織のエージェントだ\nこれから優秀な君にミッションを与える\n
+        私は，エージェントたちの日々の活動を知りたい\nそこで君には1日の出来事をレポートとして提出してほしい\n
+        他のエージェントのレポートも聞けるので，是非評価してくれ\nでは，健闘を祈る\n\n????</string>
+    <string name="bt_go2recode_voice_select">レポートを作成する</string>
+    <string name="bt_go2make_voice_select">他のエージェントの\nレポートを聞く</string>
+    <string name="bt_go2check_my_report">作成したレポートの\n評価をみる</string>
+
+    //RecodeVoiceSelect画面
+    <string name="option_total">総括レポート</string>
+    <string name="option_glad">感情レポート(喜)</string>
+    <string name="option_angry">感情レポート(怒)</string>
+    <string name="option_sad">感情レポート(哀)</string>
+    <string name="option_fun">感情レポート(楽)</string>
+    <string name="tv_select_sex">君の性別を教えてくれ</string>
+    <string name="rb_male">男性</string>
+    <string name="rb_female">女性</string>
+    <string name="tv_select_generation">君の年齢を教えてくれ</string>
+    <string-array name="sp_select_generation">
+        <item>10代</item>
+        <item>20代</item>
+        <item>30代</item>
+        <item>40代</item>
+        <item>50代</item>
+    </string-array>
+    <string name="tv_select_word">報告するレポートを選んでくれ</string>
+    <string name="tv_selected_word">選んだレポート</string>
+    <string name="bt_recode_voice">設定を保存</string>
+    <string name="bt_add_record_word">録音する言葉を追加</string>
+    <string name="tv_duration_unit">秒</string>
+
+    //選択確認ダイアログ画面
+    <string name="dialog_title">レポート内容</string>
+    <string name="dialog_msg">このレポートを報告してくれるか？</string>
+    <string name="dialog_msg_make">この条件で作成しますか？</string>
+    <string name="dialog_msg_sex">性別:</string>
+    <string name="dialog_msg_number">人数:</string>
+    <string name="dialog_msg_generation">年齢:</string>
+    <string name="dialog_msg_word">レポート名:</string>
+    <string name="dialog_msg_duration">録音時間</string>
+    <string name="dialog_msg_register">登録数</string>
+    <string name="dialog_btn_ok_record">録音画面へ</string>
+    <string name="dialog_btn_ok_make">作成画面へ</string>
+    <string name="dialog_btn_ng">選びなおす</string>
+
+    //CheckMyReport画面
+    <string name="tv_check_my_report">自分のレポートを振り返ってみてくれ</string>
+    <string name="et_add_word">追加するワード</string>
+    <string name="tv_add_duration">録音時間</string>
+    <string name="tv_check_OK">録音可能です</string>
+    <string name="tv_check_NG">不適切な表現が含まれますので訂正してください</string>
+    <string name="tv_check_length">長すぎる文章はお控えください</string>
+    <string name="bt_add">登録</string>
+
+    //MakeVoiceSelect画面
+    <string name="tv_search_sex">エージェントの性別を選んでくれ</string>
+    <string name="tv_search_generation">エージェントの年齢を選んでくれ</string>
+    <string name="tv_search_report">聞きたいレポートを選んでくれ</string>
+
+    //RecodeVoice画面
+    <string name="bt_record_start">報告開始</string>
+    <string name="bt_record_now">報告中</string>
+    <string name="bt_record_finish">報告終了</string>
+    <string name="bt_record_stop">やり直す</string>
+    <string name="bt_record_playback">再生する</string>
+    <string name="bt_record_playback_pause">再生中</string>
+    <string name="bt_record_upload">アップロード</string>
+    <string name="tv_record_check_upload">アップロード完了</string>
+    <string name="tv_attention">Attention!!</string>
+    <string name="tv_attention_title">レポートを作成する時の注意</string>
+    <string name="tv_attention_content">①特定できるような個人情報は報告しない\n②聞く人が不快になる言葉は使わない</string>
+    <string name="tv_attention_warning1">君のレポートはこちらですべて把握している</string>
+    <string name="tv_attention_warning2">規約を守れない場合は君を組織から追放する可能性がある</string>
+    <string name="tv_attention_warning3">注意してくれたまえ</string>
+
+    //RecodeMake画面
+    <string name="bt_make_start">レポートを聞く</string>
+    <string name="tv_make_ok">レポートを読み込みました</string>
+    <string name="tv_report_id">Report ID</string>
+    <string name="tv_make_ng">レポートを読み込めませんでした</string>
+    <string name="bt_make_now">再生</string>
+    <string name="bt_make_finish">再生終了</string>
+    <string name="bt_make_stop">やり直す</string>
+    <string name="rb_assess">このレポートを評価しよう！</string>
+    <string name="rb_assess_voice">いい声してますね！</string>
+    <string name="rb_assess_content">聞きごたえのある内容です！</string>
+    <string name="rb_assess_sympathy">わかる～！</string>
+    <string name="rb_assess_power">元気をもらいました！</string>
+    <string name="bt_assess">送信</string>
+
+
+    //保存ダイアログ
+    <string name="dialog_save_title">名前をつけてください</string>
+    <string name="dialog_save_ok">保存</string>
+    <string name="dialog_save_ng">戻る</string>
+
+</resources>
