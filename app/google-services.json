@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "663374279118",
-    "project_id": "voice-d3a8a",
-    "storage_bucket": "voice-d3a8a.appspot.com"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:663374279118:android:3b9c90ae6bf06b783dfb9f",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.websarva.wings.android.voice2"
+          "package_name": ""
         }
       },
       "oauth_client": [
         {
-          "client_id": "663374279118-e5kvjogiti2t1ik9pqsgj169dsub6jts.apps.googleusercontent.com",
+          "client_id": "",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBxHPxenlwLfZ88JnkwyTIPV9myBraFWvc"
+          "current_key": ""
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "663374279118-e5kvjogiti2t1ik9pqsgj169dsub6jts.apps.googleusercontent.com",
+              "client_id": "",
               "client_type": 3
             }
           ]
